@@ -2,8 +2,6 @@ package com.coderscampus.objects;
 
 public class Human {
 
-	
-
 		String gender;
 		String height;
 		String weight;
@@ -11,8 +9,8 @@ public class Human {
 		
 		
 	String getInfo ( ) {
-		return "Height: " + height +", Weight: " + weight + 
-				", EyeColor: " + eyecolor +", Gender: " + gender;
+		return "Gender: " + gender +" + Height: " + height +", Weight: " + weight + 
+				", EyeColor: " + eyecolor;
 		
 	}
 		

@@ -9,28 +9,24 @@ public class RunnableClass {
 		
 		Human Medhanepage = new Human();
 		
+		Medhanepage.setProperties("male", "5'7\"", "200", "black");
 		
-		Medhanepage.eyecolor = "black";
-		Medhanepage.gender = "male";
-		Medhanepage.height = "5'7\"";
-		Medhanepage.weight = "200";
 		
 		System.out.println(Medhanepage.getInfo());
 		
 		
 		Human Johnpage = new Human();
 		
-		Johnpage.eyecolor = "blue";
-		Johnpage.gender = "male";
-		Johnpage.height = "5'10\"";
-		Johnpage.weight = "178";
+			
+		Johnpage.setProperties("male", "5'10\"","178", "blue");
+		
 		
 		System.out.println(Johnpage.getInfo());
 		
 		Human selupage = new Human();
 		
 		selupage.eyecolor = "blue";
-		selupage.gender = " female";
+		selupage.gender = "female";
 		selupage.height = "5.5\"";
 		selupage.weight = "144";
 		
