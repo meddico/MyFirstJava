@@ -7,22 +7,32 @@ public class Human {
 		String weight;
 		String eyecolor;
 		
+			
+		Human(){
+			
+			System.out.println("A human is being created");
+		}
+			
+			Human (String gender, String height, String weight, String eyecolor){
+			
+			
+			this.gender = gender;
+			this.height = height;
+			this.weight = weight;
+			this.eyecolor = eyecolor;
+		}
 		
+		
+			
+	
 	String getInfo ( ) {
-		return "Gender: " + gender +" + Height: " + height +", Weight: " + weight + 
-				", EyeColor: " + eyecolor;
+		return "Gender: " + gender + ",  Height: " + height + 
+				", Weight: " + weight + ", Eyecolor: " + eyecolor;
 		
 	}
 		
-	void setProperties (String _gender, String _height,
-			String _weight, String _eyecolor) {
-		
-		gender = _gender;
-		height = _height;
-		weight = _weight;
-		eyecolor = _eyecolor;
+	
 				
-	}
 	
 
 }
